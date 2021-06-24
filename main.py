@@ -17,7 +17,7 @@ item_condition_dic = {5: "S", 4: "A", 3:"B", 2: "C", 1: "D", 0:"J"}
 @st.cache
 def load_data():
   # sql = "SELECT * FROM aws_mysql_tables.clean_fleamarket_sales"
-  # project_id = "teak-hearth-316213"
+  # project_id = ""
   # df = pd.read_gbq(sql, project_id=project_id)
   df=pd.read_pickle("./data/smartphone.pkl")
   return df
