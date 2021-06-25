@@ -47,7 +47,7 @@ def stacked_bar_plot(df):
   return fig
 
 def bar_plot(df, column):
-  fig, ax = plt.subplots(figsize=(4,4))
+  fig, ax = plt.subplots(figsize=(8,4))
   sns.boxplot(df[column], df["price"], sym="", ax=ax)
   return fig
 
@@ -85,7 +85,7 @@ if brand == "ALL":
       <script src="https://public.flourish.studio/resources/embed.js"></script>
     </div>
     """
-    ,height=1800
+    ,height=2000
     ,width=1500
   )
 else:
