@@ -1,8 +1,10 @@
-name: py38_streamlit
+name: streamlitpy37
 channels:
   - defaults
 dependencies:
-  - matplotlib
+  - streamlit
   - seaborn
   - pandas
-prefix: C:\Users\syous\Anaconda3\envs\py38_streamlit
+  - matplotlib
+prefix: C:\Users\syous\Anaconda3\envs\streamlitpy37
+

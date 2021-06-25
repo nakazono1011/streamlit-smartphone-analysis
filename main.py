@@ -20,6 +20,8 @@ def load_data():
   # project_id = ""
   # df = pd.read_gbq(sql, project_id=project_id)
   df=pd.read_pickle("./data/smartphone.pkl")
+  # df=pd.read_csv("./data/smartphone.csv")
+
   return df
 
 # timeseries plot
