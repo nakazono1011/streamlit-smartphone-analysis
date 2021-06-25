@@ -19,7 +19,7 @@ def load_data():
   # sql = "SELECT * FROM aws_mysql_tables.clean_fleamarket_sales"
   # project_id = ""
   # df = pd.read_gbq(sql, project_id=project_id)
-  df=pd.read_pickle("./data/smartphone.pkl")
+  df=pd.read_pickle("./data/smartphone2.pkl")
   # df=pd.read_csv("./data/smartphone.csv")
 
   return df
